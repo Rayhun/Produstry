@@ -1,0 +1,332 @@
+/*=========== xtra small device ============*/
+@media(max-width:575.98px) {
+    .top-mid {
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 15px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 15px 0 10px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+    .top-right img {
+        right: 1%;
+    }
+
+    /*===========================banner=====================*/
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    .banner-text h3 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    .banner-text h4 {
+        font-size: 12px;
+        padding-bottom: 0px;
+        padding-left: 70px;
+
+    }
+
+    .banner-text h6 {
+        font-size: 12px;
+    }
+
+    /*    ====================== About ===========================*/
+    #about {
+        padding-top: 35px;
+    }
+
+    .img h3 {
+        font-size: 26px;
+        padding-bottom: 10px;
+    }
+
+    .about-text h4 {
+        padding-top: 15px;
+    }
+
+    .misson {
+        padding-top: 45px;
+    }
+
+    .misson-icon i {
+        padding-left: 20px;
+    }
+
+    .misson-text {
+        padding-left: 20px;
+    }
+
+    #team {
+        padding-top: 50px;
+    }
+
+    .overlay {
+        -webkit-clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+        bottom: 65px;
+    }
+
+    .overlay h3 {
+        padding-top: 80px;
+    }
+
+    .overlay .team-icon {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+
+    }
+
+    /*    ====================== Contact ===============================*/
+    .contact-img img {
+        margin-left: 15px;
+    }
+
+    .contact-text p {
+        font-size: 12px;
+        line-height: 20px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contect2-text h3 {
+        padding-bottom: 25px;
+    }
+
+    .contact-icon {
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contact3-text h3 {
+        padding-bottom: 20px;
+    }
+
+    .contact4-text h3 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .counter-mane {
+        padding: 0px 0;
+    }
+
+    .counter-mane span {
+        font-size: 20px;
+    }
+
+    .counter-mane h3 {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:547px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: right;
+    }
+}
+
+/*=========== small device ============*/
+@media(min-width:576px) and (max-width:767.98px) {
+    .top-mid {
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 15px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 15px 0 10px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    .top-right img {
+        right: 1%;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    .banner-text h3 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    .banner-text h4 {
+        font-size: 12px;
+        padding-bottom: 0px;
+        padding-left: 70px;
+
+    }
+
+    .banner-text h6 {
+        font-size: 12px;
+    }
+
+    #about {
+        padding-top: 50px;
+    }
+
+    .img h3 {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+
+    .img img {
+        padding-bottom: 20px;
+    }
+
+    .misson-text {
+        padding-left: 33px;
+    }
+
+    .misson-text h3 {
+        text-align: center;
+    }
+
+    .misson {
+        padding-top: 20px;
+    }
+
+    .misson-icon i {
+        padding-left: 40px;
+    }
+
+    .overlay .team-icon {
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+    }
+
+    #team {
+        padding-top: 50px;
+    }
+}
+
+/*=============================== md Device ======================*/
+
+@media(min-width:768px) and (max-width:991.98px) {
+    .top-mid {
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 15px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 15px 0 10px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    .top-right img {
+        right: 1%;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+    .overlay .team-icon {
+        left: 50%;
+        width: 100%;
+        transform: translateX(-50%);
+    }
+
+    .overlay .team-icon ul li i {
+        padding: 5px 7px;
+        font-size: 13px;
+    }
+
+}

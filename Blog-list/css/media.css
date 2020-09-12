@@ -1,0 +1,343 @@
+/*=========== 375 small device ============*/
+@media(max-width:480px) {
+
+    .blog-icon-main,
+    .blog-icon-2 {
+        display: none;
+    }
+}
+
+/*=========== xtra small device ============*/
+@media(max-width:575.98px) {
+    .top-mid {
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 15px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 15px 0 10px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+    /*===========================banner=====================*/
+    #banner {
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .banner-text h3 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    .banner-text h4 {
+        font-size: 12px;
+        padding-bottom: 0px;
+
+    }
+
+    .banner-text h6 {
+        font-size: 12px;
+    }
+
+    #blog2 {
+        padding-top: 50px;
+    }
+
+    .blog-select {
+        padding: 20px 10px;
+    }
+
+    .nestet2 .flaticon-man-user {
+        padding-left: 25px;
+    }
+
+    .blog2-par p {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 16px;
+    }
+
+    .blog2-par h6 {
+        padding: 14px;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .blog2-text {
+        padding-top: 75px;
+        bottom: 75px;
+        -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .tab-content > .active {
+        padding-top: 20px;
+    }
+
+    .next-page h6 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        transition: all linear.4s;
+    }
+
+    .next-page h6:hover {
+        background: #FFE600;
+        color: #fff;
+        border: 1px solid #FFE600;
+    }
+
+    /*    ====================== Contact ===============================*/
+    .contact-img img {
+        margin-left: 15px;
+    }
+
+    .contact-text p {
+        font-size: 12px;
+        line-height: 20px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contect2-text h3 {
+        padding-bottom: 25px;
+    }
+
+    .contact-icon {
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contact-icon i {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+
+    .contact3-text h3 {
+        padding-bottom: 20px;
+    }
+
+    .contact4-text h3 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .counter-mane {
+        padding: 0px 0;
+    }
+
+    .counter-mane span {
+        font-size: 20px;
+    }
+
+    .counter-mane h3 {
+        font-size: 15px;
+    }
+
+    .overlay-popular {
+        width: 94%;
+        height: 100%;
+    }
+
+    .form-leave .lvl-2 {
+        margin-left: 0px;
+    }
+
+    .leave {
+        border-bottom: 2px solid #FFCA36;
+    }
+
+    .navbar {
+        padding: 15px 0 0 0;
+    }
+
+}
+
+@media(max-width:547px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: right;
+    }
+}
+
+/*=========== small device ============*/
+@media(min-width:576px) and (max-width:767.98px) {
+    .top-mid {
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 15px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 15px 0 10px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    .banner-text h3 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    .banner-text h4 {
+        font-size: 12px;
+        padding-bottom: 0px;
+        padding-left: 70px;
+
+    }
+
+    .banner-text h6 {
+        font-size: 12px;
+    }
+
+    .blog2-par p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .blog2-text {
+        padding-top: 75px;
+        bottom: 75px;
+        -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .overlay-popular {
+        width: 94%;
+        height: 100%;
+    }
+
+    .blog-select {
+        padding: 20px 0;
+    }
+
+    .top-right img {
+        right: 1%;
+    }
+}
+
+/*=============================== md Device ======================*/
+
+@media(min-width:768px) and (max-width:991.98px) {
+    .top-mid {
+        width: 100%;
+        padding-top: 7px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 7px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 7px 0 px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+    .overlay-popular {
+        position: absolute;
+        width: 95%;
+        height: 100%;
+    }
+
+    .blog-select {
+        padding: 20px 10px;
+
+    }
+
+    .top-right img {
+        right: 1%;
+    }
+
+}

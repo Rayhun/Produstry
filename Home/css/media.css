@@ -1,0 +1,468 @@
+
+/*=========== xtra small device ============*/
+@media(max-width:575.98px) {
+    .top-mid {
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 15px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 15px 0 10px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    /*===========================banner=====================*/
+    .banner-text {
+        padding: 0;
+    }
+
+    .banner-text h3 {
+        font-size: 26px;
+    }
+
+    .banner-text h4 {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+
+    .banner-text p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    #banner span {
+        display: none !important;
+    }
+
+    .banner-text h5 {
+        padding: 8px 10px;
+    }
+
+    .banner-text h6 {
+        padding: 8px 10px;
+    }
+
+    .banner-slider-icon {
+        display: none;
+    }
+
+    /*================== Service ===========================*/
+    .service {
+        padding-top: 40px;
+    }
+
+    .service-icon {
+        display: none;
+    }
+
+    .service-box::after {
+        display: none;
+    }
+
+    .service-box {
+        padding: 0;
+    }
+
+    /*    ====================== About ===========================*/
+    #about {
+        padding-top: 40px;
+    }
+
+    .nav-pills .nav-link {
+        font-size: 10px;
+
+    }
+
+    .afbe::after {
+        top: 31px;
+    }
+
+    .tab-content > .active {
+        font-size: 12px;
+    }
+
+    .tab-content > .active .red h6 {
+        padding: 13px 20px;
+        ;
+        font-size: 14px;
+    }
+
+    /*    ========================= Poartfolio =======================*/
+    #portfolio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    /*    =========================Blog===============================*/
+    #blog {
+        padding-top: 40px;
+    }
+
+    #blog .bic {
+        display: none !important;
+    }
+
+    .portfolio-text p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /*    ========================== Testmonial ====================*/
+    #testimonial {
+        padding-top: 0;
+    }
+
+    .test-text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /*    ========================= Company ==========================*/
+    #company {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #company .com {
+        display: none;
+    }
+
+    /*    ====================== Contact ===============================*/
+    .contact-img img {
+        margin-left: 15px;
+    }
+
+    .contact-text p {
+        font-size: 12px;
+        line-height: 20px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contect2-text h3 {
+        padding-bottom: 25px;
+    }
+
+    .contact-icon {
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contact3-text h3 {
+        padding-bottom: 20px;
+    }
+
+    .contact4-text h3 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .counter-mane {
+        padding: 0px 0;
+    }
+
+    .counter-mane span {
+        font-size: 20px;
+    }
+
+    .counter-mane h3 {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:547px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: right;
+    }
+}
+
+/*=========== sm device ============*/
+@media(min-width:576px) and (max-width:767.98px) {
+    .top-mid {
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 15px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 15px 0 10px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    /*    ================= banner ======================*/
+    .banner-text {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .banner-text h3 {
+        font-size: 26px;
+    }
+
+    .banner-text h4 {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+
+    .banner-text p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .banner-text h5 {
+        padding: 10px 12px;
+    }
+
+    .banner-text h6 {
+        padding: 10px 12px;
+    }
+
+    #banner span img {
+        display: none;
+    }
+
+    .service {
+        padding-top: 75px;
+    }
+
+    .service-icon {
+        display: none;
+    }
+
+    .service-box::after {
+        display: none;
+    }
+
+    .service-box {
+        padding-top: 20px;
+    }
+
+    #portfolio {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .counter-mane {
+        padding: 0px 0;
+    }
+
+    .counter-mane h3 {
+        font-size: 14px;
+    }
+
+    .counter-mane span {
+        font-size: 30px;
+    }
+
+    #blog {
+        padding-top: 60px;
+    }
+
+    .blog-text h3 {
+        font-size: 12px;
+        padding-top: 35px;
+    }
+
+    .blog-para p {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    #blog .bic {
+        display: none !important;
+    }
+
+    #testimonial {
+        padding-top: 35px;
+    }
+
+    #company {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+/*====================================== md device =======================*/
+
+@media(min-width:768px) and (max-width:991.98px) {
+    .top-mid {
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 15px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 15px 0 10px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    .banner-text {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .banner-text h3 {
+        font-size: 30px;
+    }
+
+    .banner-text h4 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .banner-text p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .banner-text h5 {
+        padding: 12px 14px;
+    }
+
+    .banner-text h6 {
+        padding: 12px 14px;
+    }
+
+    .service {
+        padding-top: 75px;
+    }
+
+    .service-icon {
+        top: 10px;
+        left: 125px;
+    }
+
+    .service-box::after {
+        top: 107px;
+        left: 165px;
+    }
+
+    .service-box {
+        padding-top: 136px;
+    }
+
+    #about {
+        padding-top: 50px;
+    }
+
+    #portfolio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .counter-mane {
+        padding: 20px 0;
+    }
+
+    .counter-mane h3 {
+        font-size: 14px;
+    }
+
+    .counter-mane span {
+        font-size: 30px;
+    }
+
+    #blog {
+        padding-top: 50px;
+    }
+
+    #company {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

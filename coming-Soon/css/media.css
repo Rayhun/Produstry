@@ -1,0 +1,78 @@
+/*=========== xtra small device ============*/
+@media(max-width:575.98px){
+    .style {
+	margin-left:0px;
+}
+       #getting-started h6 {
+	padding-left:0px;
+}
+    .days {
+	margin-right: 0px;
+}
+    .hours {
+	margin-right: 0px;
+}
+    .minuit {
+	margin-right: 0px;
+}
+    .seconds {
+	margin-right: 0px;
+	font-family: 'Cute Font', cursive;
+}
+}
+    @media(min-width:576px) and (max-width:767.98px){
+        .style {
+	margin-left:0px;
+}
+       #getting-started h6 {
+	padding-left:0px;
+}
+    .days {
+	margin-right: 0px;
+}
+    .hours {
+	margin-right: 0px;
+}
+    .minuit {
+	margin-right: 0px;
+}
+    .seconds {
+	margin-right: 0px;
+	font-family: 'Cute Font', cursive;
+}
+    }
+@media(min-width:768px) and (max-width:991.98px){
+        .style {
+	margin-left:0px;
+}
+       #getting-started h6 {
+	padding-left:0px;
+}
+    .days {
+	margin-right: 0px;
+}
+    .hours {
+	margin-right: 0px;
+}
+    .minuit {
+	margin-right: 0px;
+}
+    .seconds {
+	margin-right: 0px;
+	font-family: 'Cute Font', cursive;
+}
+    #getting-started{
+        left: 15%;
+    }
+    .comming-text p {
+	padding-left: 125px;
+	padding-right: 125px;
+}
+    #getting-started {
+	padding-top: 50px;
+}
+    .subscribe {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+    }

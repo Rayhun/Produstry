@@ -1,0 +1,242 @@
+/*=========== xtra small device ============*/
+@media(max-width:575.98px) {
+    .top-mid {
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 15px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 15px 0 10px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    /*===========================banner=====================*/
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    .banner-text h3 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    .banner-text h4 {
+        font-size: 12px;
+        padding-bottom: 0px;
+
+    }
+
+    .banner-text h6 {
+        font-size: 12px;
+    }
+
+    #portfolio {
+        padding-top: 50px;
+    }
+
+    /*    ====================== Contact ===============================*/
+    .contact-img img {
+        margin-left: 15px;
+    }
+
+    .contact-text p {
+        font-size: 12px;
+        line-height: 20px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contect2-text h3 {
+        padding-bottom: 25px;
+    }
+
+    .contact-icon {
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+
+    .contact3-text h3 {
+        padding-bottom: 20px;
+    }
+
+    .contact4-text h3 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .counter-mane {
+        padding: 0px 0;
+    }
+
+    .counter-mane span {
+        font-size: 20px;
+    }
+
+    .counter-mane h3 {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:547px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: right;
+    }
+}
+
+/*=========== small device ============*/
+@media(min-width:576px) and (max-width:767.98px) {
+    .top-mid {
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 15px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 15px 0 10px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    #banner {
+        padding-bottom: 50px;
+    }
+
+    .banner-text h3 {
+        padding-top: 50px;
+        font-size: 30px;
+    }
+
+    .banner-text h4 {
+        font-size: 13px;
+        padding-bottom: 0px;
+
+    }
+
+    .banner-text h6 {
+        font-size: 13px;
+    }
+
+    .overlay2 .team-icon {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    #portfolio {
+        padding-top: 50px;
+    }
+}
+
+/*=============================== md Device ======================*/
+
+@media(min-width:768px) and (max-width:991.98px) {
+    .top-mid {
+        width: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-left {
+        width: 100%;
+        padding: 15px 0 0px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .top-right {
+        padding: 15px 0 10px 0;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #FFC332;
+        border-color: #FFC332;
+    }
+
+    .navbar-light .navbar-nav .nav-link img {
+        right: -25px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .drop-down {
+        top: 0px;
+        left: 20px;
+    }
+
+    span.flaticon-menu {
+        display: none;
+    }
+
+    .overlay2 .team-icon {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+}
+    
+
+
