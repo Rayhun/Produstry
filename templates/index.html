@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
+{% load static %}
 <head>
     <meta charset="UTF-8">
-    <title>Home-page</title>
+    <title>Home-pagess</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="Home/font/flaticon.css">
-    <link rel="stylesheet" href="Home/css/all.min.css">
-    <link rel="stylesheet" href="Home/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Home/css/slick.css">
-    <link rel="stylesheet" href="Home/css/animate.css">
-    <link rel="stylesheet" href="Home/css/style.css">
-    <link rel="stylesheet" href="Home/css/media.css">
+    <link rel="stylesheet" href="{% static 'font/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/media.css' %}">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -33,11 +33,11 @@
 
             <div class="col-lg-4 col-12 px-0 text-center">
                 <div class="top-right">
-                    <a href="#"><span class="flaticon-facebook"><img src="Home/images/box/box.png" alt="" class=" img-fluid"></span></a>
-                    <a href="#"><span class="flaticon-twitter"><img src="Home/images/box/box.png" alt="" class=" img-fluid"></span></a>
-                    <a href="#"><span class="flaticon-linkedin-logo"><img src="Home/images/box/box.png" alt="" class=" img-fluid"></span></a>
-                    <a href="#"><span class="flaticon-behance-logo"><img src="Home/images/box/box.png" alt="" class=" img-fluid"></span></a>
-                    <a href="#"><span class="flaticon-google-plus"><img src="Home/images/box/box.png" alt="" class=" img-fluid"></span></a>
+                    <a href="#"><span class="flaticon-facebook"><img src="{% static 'images/box/box.png' %}" alt="" class=" img-fluid"></span></a>
+                    <a href="#"><span class="flaticon-twitter"><img src="{% static 'images/box/box.png' %}" alt="" class=" img-fluid"></span></a>
+                    <a href="#"><span class="flaticon-linkedin-logo"><img src="{% static 'images/box/box.png' %}" alt="" class=" img-fluid"></span></a>
+                    <a href="#"><span class="flaticon-behance-logo"><img src="{% static 'images/box/box.png' %}" alt="" class=" img-fluid"></span></a>
+                    <a href="#"><span class="flaticon-google-plus"><img src="{% static 'images/box/box.png' %}" alt="" class=" img-fluid"></span></a>
                 </div>
             </div>
 
@@ -71,36 +71,36 @@
     <section id="menu">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="Home/images/logo/logo.png" alt="Logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="{% static 'images/logo/logo.png' %}" alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria- controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link " href="index.html"><img src="Home/images/box/menu-box.png" alt=""> Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link " href="index.html"><img src="{% static 'images/box/menu-box.png' %}" alt=""> Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#service"><img src="Home/images/box/menu-box.png" alt=""> Service</a>
+                            <a class="nav-link " href="#service"><img src="{% static 'images/box/menu-box.png' %}" alt=""> Service</a>
                             <ul class="drop-down">
                                 <li class="comming"><a href="coming-Soon/index.html">Coming Soon</a></li>
                                 <li class="earror"><a href="404-page-not-found/index.html">Earror</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#about"><img src="Home/images/box/menu-box.png" alt=""> About Us</a>
+                            <a class="nav-link " href="#about"><img src="{% static 'images/box/menu-box.png' %}" alt=""> About Us</a>
                             <ul class="drop-down">
                                 <li class="about"><a href="About/index.html">About ME</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#portfolio"><img src="Home/images/box/menu-box.png" alt=""> Portfoli</a>
+                            <a class="nav-link " href="#portfolio"><img src="{% static 'images/box/menu-box.png' %}" alt=""> Portfoli</a>
                             <ul class="drop-down">
                                 <li class="port"><a href="Portfolio/index.html">Portfoli</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#blog"><img src="Home/images/box/menu-box.png" alt=""> Our Blog</a>
+                            <a class="nav-link " href="#blog"><img src="{% static 'images/box/menu-box.png' %}" alt=""> Our Blog</a>
                             <ul class="drop-down">
                                 <li class="blog-grid"><a href="Blog-Grid/index.html">Blog Grid</a></li>
 
@@ -110,7 +110,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contact" href="#contact"><img src="Home/images/box/menu-box.png" alt=""> Contact Us</a>
+                            <a class="nav-link contact" href="#contact"><img src="{% static 'images/box/menu-box.png' %}" alt=""> Contact Us</a>
                             <ul class="drop-down">
                                 <li class="con"><a href="Contact/index.html">Contact</a></li>
                             </ul>
@@ -127,7 +127,7 @@
 
     <section id="banner">
         <div class="slider-main">
-            <div class="slider-item" style="background:url(Home/images/banner/banner1.jpg);">
+            <div class="slider-item" style="background:url(images/banner/banner1.jpg);">
                 <div class="banner-slider-icon">
                     <i class="flaticon-left-arrow-chevron left1"></i>
                     <i class="flaticon-right-chevron right1"></i>
@@ -150,7 +150,7 @@
                 </div>
             </div>
 
-            <div class="slider-item" style="background:url(Home/images/banner/banner2.jpg);">
+            <div class="slider-item" style="background:url(images/banner/banner2.jpg);">
                 <div class="banner-slider-icon">
                     <i class="flaticon-left-arrow-chevron left1"></i>
                     <i class="flaticon-right-chevron right1"></i>
@@ -172,7 +172,7 @@
                     </div>
                 </div>
             </div>
-            <div class="slider-item" style="background:url(Home/images/banner/banner3.jpg);">
+            <div class="slider-item" style="background:url(images/banner/banner3.jpg);">
                 <div class="banner-slider-icon">
                     <i class="flaticon-left-arrow-chevron left1"></i>
                     <i class="flaticon-right-chevron right1"></i>
@@ -261,7 +261,7 @@
             <div class="col-lg-6 px-0 wow slideInLeft">
                 <div class="about-img">
                     <h3>About US</h3>
-                    <img src="Home/images/about/about.png" alt="" class="w-100">
+                    <img src="{% static 'images/about/about.png' %}" alt="" class="w-100">
                 </div>
             </div>
             <div class="col-lg-5 wow slideInRight">
@@ -334,7 +334,7 @@
             <div class="row poartfolio-slider">
                 <div class="col-lg-3 col-6 col-md-4 wow slideInLeft">
                     <div class="port-img">
-                        <img src="Home/images/portfolio/portfolio1.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/portfolio/portfolio1.jpg' %}" alt="" class="w-100">
                         <div class="overlay">
                             <h4>Architectural</h4>
                             <p>Building/Architect</p>
@@ -343,7 +343,7 @@
                 </div>
                 <div class="col-lg-3 col-6 col-md-4 wow fadeIn" data-wow-delay=".5s">
                     <div class="port-img">
-                        <img src="Home/images/portfolio/portfolio2.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/portfolio/portfolio2.jpg' %}" alt="" class="w-100">
                         <div class="overlay">
                             <h4>Architectural</h4>
                             <p>Building/Architect</p>
@@ -352,7 +352,7 @@
                 </div>
                 <div class="col-lg-3 col-6 col-md-4 wow fadeIn" data-wow-delay=".5s">
                     <div class="port-img">
-                        <img src="Home/images/portfolio/portfolio3.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/portfolio/portfolio3.jpg' %}" alt="" class="w-100">
                         <div class="overlay">
                             <h4>Architectural</h4>
                             <p>Building/Architect</p>
@@ -361,7 +361,7 @@
                 </div>
                 <div class="col-lg-3 col-6 col-md-4 wow slideInRight">
                     <div class="port-img">
-                        <img src="Home/images/portfolio/portfolio4.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/portfolio/portfolio4.jpg' %}" alt="" class="w-100">
                         <div class="overlay">
                             <h4>Architectural</h4>
                             <p>Building/Architect</p>
@@ -423,7 +423,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="blog-main">
                         <div class="blog-img">
-                            <img src="Home/images/blog/blog1.jpg" alt="" class="w-100 img-fluid">
+                            <img src="{% static 'images/blog/blog1.jpg' %}" alt="" class="w-100 img-fluid">
                             <div class="overlay2">
                                 <div class="blog-icon">
                                     <span class="flaticon-link"></span>
@@ -468,7 +468,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="blog-main border">
                         <div class="blog-img">
-                            <img src="Home/images/blog/blog2.jpg" alt="" class="w-100 img-fluid">
+                            <img src="{% static 'images/blog/blog2.jpg' %}" alt="" class="w-100 img-fluid">
                             <div class="overlay2">
                                 <div class="blog-icon">
                                     <span class="flaticon-link"></span>
@@ -512,7 +512,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="blog-main border">
                         <div class="blog-img">
-                            <img src="Home/images/blog/blog3.jpg" alt="" class="w-100 img-fluid">
+                            <img src="{% static 'images/blog/blog3.jpg' %}" alt="" class="w-100 img-fluid">
                             <div class="overlay2">
                                 <div class="blog-icon">
                                     <span class="flaticon-link"></span>
@@ -556,7 +556,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="blog-main border">
                         <div class="blog-img">
-                            <img src="Home/images/blog/blog2.jpg" alt="" class="w-100 img-fluid">
+                            <img src="{% static 'images/blog/blog2.jpg' %}" alt="" class="w-100 img-fluid">
                             <div class="overlay2">
                                 <div class="blog-icon">
                                     <span class="flaticon-link"></span>
@@ -600,7 +600,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <div class="blog-main border">
                         <div class="blog-img">
-                            <img src="Home/images/blog/blog1.jpg" alt="" class="w-100 img-fluid">
+                            <img src="{% static 'images/blog/blog1.jpg' %}" alt="" class="w-100 img-fluid">
                             <div class="overlay2">
                                 <div class="blog-icon">
                                     <span class="flaticon-link"></span>
@@ -746,32 +746,32 @@
                 <div class="row img">
                     <div class="col-lg-12 m-auto text-center">
                         <div class="slider-img">
-                            <img src="Home/images/testimonial/img1.png" alt="" class="">
+                            <img src="{% static 'images/testimonial/img1.png' %}" alt="" class="">
                         </div>
                     </div>
                     <div class="col-lg-12 m-auto text-center">
                         <div class="slider-img">
-                            <img src="Home/images/testimonial/img2.png" alt="" class="">
+                            <img src="{% static 'images/testimonial/img2.png' %}" alt="" class="">
                         </div>
                     </div>
                     <div class="col-lg-12 m-auto text-center">
                         <div class="slider-img">
-                            <img src="Home/images/testimonial/img3.png" alt="" class="">
+                            <img src="{% static 'images/testimonial/img3.png' %}" alt="" class="">
                         </div>
                     </div>
                     <div class="col-lg-12 m-auto text-center">
                         <div class="slider-img">
-                            <img src="Home/images/testimonial/img1.png" alt="" class="">
+                            <img src="{% static 'images/testimonial/img1.png' %}" alt="" class="">
                         </div>
                     </div>
                     <div class="col-lg-12 m-auto text-center">
                         <div class="slider-img">
-                            <img src="Home/images/testimonial/img2.png" alt="" class="">
+                            <img src="{% static 'images/testimonial/img2.png' %}" alt="" class="">
                         </div>
                     </div>
                     <div class="col-lg-12 m-auto text-center">
                         <div class="slider-img">
-                            <img src="Home/images/testimonial/img3.png" alt="" class="">
+                            <img src="{% static 'images/testimonial/img3.png' %}" alt="" class="">
                         </div>
                     </div>
                 </div>
@@ -787,42 +787,42 @@
             <div class="row main">
                 <div class="col-lg m-auto">
                     <div class="img-compani">
-                        <img src="Home/images/compani/img1.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/compani/img1.jpg' %}" alt="" class="w-100">
                     </div>
                 </div>
                 <div class="col-lg m-auto">
                     <div class="img-compani">
-                        <img src="Home/images/compani/img2.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/compani/img2.jpg' %}" alt="" class="w-100">
                     </div>
                 </div>
                 <div class="col-lg m-auto">
                     <div class="img-compani">
-                        <img src="Home/images/compani/img3.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/compani/img3.jpg' %}" alt="" class="w-100">
                     </div>
                 </div>
                 <div class="col-lg m-auto">
                     <div class="img-compani">
-                        <img src="Home/images/compani/img4.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/compani/img4.jpg' %}" alt="" class="w-100">
                     </div>
                 </div>
                 <div class="col-lg m-auto">
                     <div class="img-compani">
-                        <img src="Home/images/compani/img5.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/compani/img5.jpg' %}" alt="" class="w-100">
                     </div>
                 </div>
                 <div class="col-lg m-auto">
                     <div class="img-compani">
-                        <img src="Home/images/compani/img3.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/compani/img3.jpg' %}" alt="" class="w-100">
                     </div>
                 </div>
                 <div class="col-lg m-auto">
                     <div class="img-compani">
-                        <img src="Home/images/compani/img4.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/compani/img4.jpg' %}" alt="" class="w-100">
                     </div>
                 </div>
                 <div class="col-lg m-auto">
                     <div class="img-compani">
-                        <img src="Home/images/compani/img5.jpg" alt="" class="w-100">
+                        <img src="{% static 'images/compani/img5.jpg' %}" alt="" class="w-100">
                     </div>
                 </div>
             </div>
@@ -837,7 +837,7 @@
                     <div class="row mx-0">
                         <div class="col-lg-3 px-0 text-left wow fadeInLeft" data-wow-delay="1s">
                             <div class="contact-img">
-                                <img src="Home/images/contact/logo-img.png" alt="" class="">
+                                <img src="{% static 'images/contact/logo-img.png' %}" alt="" class="">
                             </div>
                             <div class="contact-text">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's.
@@ -902,7 +902,7 @@
 
                                 <div class="row">
                                     <div class="col-lg-3 col-3">
-                                        <img src="Home/images/contact/sm-img1.jpg" alt="">
+                                        <img src="{% static 'images/contact/sm-img1.jpg' %}" alt="">
                                     </div>
                                     <div class="col-lg-9 col-9">
                                         <h4>Nice Newest Construction Factory Work</h4>
@@ -926,7 +926,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-3 col-3">
-                                        <img src="Home/images/contact/sm-img2.jpg" alt="">
+                                        <img src="{% static 'images/contact/sm-img2.jpg' %}" alt="">
                                     </div>
                                     <div class="col-lg-9 col-9">
                                         <h4>Nice Newest Construction Factory Work</h4>
@@ -974,14 +974,14 @@
     </section>
     <!--------------------------- Footter Part End  --------------------------->
 
-    <script src="Home/js/jquery-1.12.4.min.js"></script>
-    <script src="Home/js/bootstrap.min.js"></script>
-    <script src="Home/js/slick.min.js"></script>
-    <script src="Home/js/jquery.counterup.min.js"></script>
-    <script src="Home/js/waypoints.min.js"></script>
-    <script src="Home/js/jquery.easing.min.js"></script>
-    <script src="Home/js/wow.min.js"></script>
-    <script src="Home/js/custom.js"></script>
+    <script src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/slick.min.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+    <script src="{% static 'js/waypoints.min.js' %}"></script>
+    <script src="{% static 'js/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+    <script src="{% static 'js/custom.js' %}"></script>
 
 </body>
 

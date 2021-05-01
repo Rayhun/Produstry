@@ -56,8 +56,6 @@ local_settings.py
 db.sqlite3
 log/
 logs/
-media/
-static/
 uwsgi/
 backup/
 
